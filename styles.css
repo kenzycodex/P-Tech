@@ -34,14 +34,24 @@ header .container {
     padding: 10px;
 }
 
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 22%;
+    height: auto;
+}
+
 .logo h1 {
+    display: inline;
     font-size: 28px;
     font-weight: bold;
     color: #f5f5d6;
 }
 
 .logo h1 span {
-    color: #ff6f61; /* Orange */
+    color: #ff7200; /* Orange */
 }
 
 nav {
@@ -65,7 +75,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6f61;
+    color: #ff7200;
 }
 
 nav ul .description {
@@ -73,7 +83,7 @@ nav ul .description {
 }
 
 .hero {
-    background: url("6.jpg") no-repeat center center/cover;
+    background: url("images/6.jpg") no-repeat center center/cover;
     padding: 150px 0;
     color: #fff;
     text-align: center;
@@ -113,7 +123,7 @@ nav ul .description {
 }
 
 .hero-content h2 span {
-    color: #ff6161;
+    color: #ff7200;
 }
 
 .hero-content p {
@@ -125,7 +135,7 @@ nav ul .description {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff6161;
+    background-color: #ff7200;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -135,7 +145,7 @@ nav ul .description {
 
 .btn:hover, 
 .btn:active {
-    background-color: #fc776a;
+    background-color: #fd621a;
 }
 
 .features {
@@ -159,7 +169,7 @@ nav ul .description {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background-color: #ff6f61;
+    background-color: #ff7200;
 }
 
 .feature-grid {
@@ -216,7 +226,7 @@ nav ul .description {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background-color: #ff6f61;
+    background-color: #ff7200;
 }
 
 .testimonial-grid {
@@ -271,7 +281,7 @@ nav ul .description {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background-color: #ff6f61;
+    background-color: #ff7200;
 }
 
 .pricing-grid {
@@ -320,7 +330,7 @@ nav ul .description {
     content: "✔";
     position: absolute;
     left: 0;
-    color: #ff6161;
+    color: #ff7200;
 }
 
 .contact {
@@ -342,7 +352,7 @@ nav ul .description {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background-color: #ff6f61;
+    background-color: #ff7200;
 }
 
 form {
@@ -376,7 +386,7 @@ form {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #fc776a;
+    border-color: #ff9441;
 }
 
 .form-group textarea {
@@ -387,7 +397,7 @@ form {
 .btn-primary {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff6161;
+    background-color: #ff7200;
     color: #fff;
     border: none;
     text-decoration: none;
@@ -418,7 +428,7 @@ footer p b {
 }
 
 footer p span {
-    color: #ff6f61;
+    color: #ff7200;
 }
 
 /* Styles for smaller screens */
@@ -490,7 +500,7 @@ footer p span {
     }
     
     nav ul .description h2 span {
-        color: #ff6161;
+        color: #ff7200;
     }
     
     nav ul.show .description {
@@ -516,7 +526,7 @@ footer p span {
     }
     
     .hero-content h2 span {
-        color: #ff6161;
+        color: #ff7200;
     }
     
     .hero-content p {
